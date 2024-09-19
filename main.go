@@ -4,27 +4,27 @@ import (
 	"fmt"
 	"github.com/berryons/log"
 	"github.com/berryons/server"
-	"github.com/berryons/template/variable"
+	"github.com/berryons/template/config"
 	"google.golang.org/grpc"
 )
 
 func main() {
 	// Set Environment Variables
-	envVar := variable.New()
+	conf := config.Load()
 
 	// Set Logger
-	if len(envVar.LogDir) != 0 {
+	if len(conf.LogDir) != 0 {
 		log.SetLogger(
-			envVar.LogLevel,
-			envVar.LogDir,
-			envVar.ServerName,
-			envVar.LogLevel,
+			conf.LogLevel,
+			conf.LogDir,
+			conf.ServerName,
+			conf.LogFileLevel,
 			2,
 			false,
 		)
 	}
 
-	runServer(envVar.ServerNetwork, fmt.Sprintf("%s:%s", envVar.ServerAddress, envVar.ServerPort))
+	runServer(conf.ServerNetwork, fmt.Sprintf("%s:%s", conf.ServerAddress, conf.ServerPort))
 }
 
 func runServer(network, address string) {

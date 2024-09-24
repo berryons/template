@@ -2,8 +2,12 @@ github.com/berryons/log v0.0.0-20240915081337-e9fcae5072c7 h1:P651OOkDSEPRfmMjLj
 github.com/berryons/log v0.0.0-20240915081337-e9fcae5072c7/go.mod h1:Bhq7VMOZMc1JoAH44VudZily+bh4Lq6X0RgS8Dv2tJo=
 github.com/berryons/log v0.0.0-20240919135600-c215f3a66f63 h1:JoV2D2F30U8HoR2jm+OLTjU1FBXMT2z0ryiUsEINQqo=
 github.com/berryons/log v0.0.0-20240919135600-c215f3a66f63/go.mod h1:pAVTtGCxHL9e2ETleQTaeH8vZjApzdLIRu2tB1FvCrA=
+github.com/berryons/log v0.0.0-20240919142625-3e3e386e465d h1:mghLDn3vWijHnttRCr/GTtlUOCkw2TvQBoxS+QaAR+o=
+github.com/berryons/log v0.0.0-20240919142625-3e3e386e465d/go.mod h1:pAVTtGCxHL9e2ETleQTaeH8vZjApzdLIRu2tB1FvCrA=
 github.com/berryons/server v0.0.0-20240919140054-85915346b575 h1:9sonEMFvj9hX2shBP69kQ9l8WikEYNQ/jnWxfJdonrU=
 github.com/berryons/server v0.0.0-20240919140054-85915346b575/go.mod h1:a01rsNHS188vesuSvNFKYFFTFrknb6wj1/F7lnZcmXE=
+github.com/berryons/server v0.0.0-20240924132728-dd3beb7d2840 h1:Q5NAQp2tbFMydOQ6LS9mGSE9z4FXUvwFs6HxB4fvfQg=
+github.com/berryons/server v0.0.0-20240924132728-dd3beb7d2840/go.mod h1:a01rsNHS188vesuSvNFKYFFTFrknb6wj1/F7lnZcmXE=
 github.com/caarlos0/env/v6 v6.10.1 h1:t1mPSxNpei6M5yAeu1qtRdPAK29Nbcf/n3G7x+b3/II=
 github.com/caarlos0/env/v6 v6.10.1/go.mod h1:hvp/ryKXKipEkcuYjs9mI4bBCg+UI0Yhgm5Zu0ddvwc=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
@@ -30,6 +34,8 @@ google.golang.org/genproto/googleapis/rpc v0.0.0-20240903143218-8af14fe29dc1 h1:
 google.golang.org/genproto/googleapis/rpc v0.0.0-20240903143218-8af14fe29dc1/go.mod h1:UqMtugtsSgubUsoxbuAoiCXvqvErP7Gf0so0mK9tHxU=
 google.golang.org/grpc v1.66.2 h1:3QdXkuq3Bkh7w+ywLdLvM56cmGvQHUMZpiCzt6Rqaoo=
 google.golang.org/grpc v1.66.2/go.mod h1:s3/l6xSSCURdVfAnL+TqCNMyTDAGN6+lZeVxnZR128Y=
+google.golang.org/grpc v1.67.0 h1:IdH9y6PF5MPSdAntIcpjQ+tXO41pcQsfZV2RxtQgVcw=
+google.golang.org/grpc v1.67.0/go.mod h1:1gLDyUQU7CTLJI90u3nXZ9ekeghjeM7pTDZlqFNg2AA=
 google.golang.org/protobuf v1.34.2 h1:6xV6lTsCfpGD21XK49h7MhtcApnLqkfYgPcdHftf6hg=
 google.golang.org/protobuf v1.34.2/go.mod h1:qYOHts0dSfpeUzUFpOMr/WGzszTmLH+DiWniOlNbLDw=
 gopkg.in/natefinch/lumberjack.v2 v2.2.1 h1:bBRl1b0OH9s/DuPhuXpNl+VtCaJXFZ5/uEFST95x9zc=
